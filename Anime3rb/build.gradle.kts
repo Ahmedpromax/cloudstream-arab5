@@ -1,4 +1,8 @@
-version = 1
+plugins {
+    id("com.lagradost.cloudstream3.gradle")
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
+}
 
 cloudstream {
     extName = "Anime3rb"
